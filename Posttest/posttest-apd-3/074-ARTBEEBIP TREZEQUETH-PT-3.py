@@ -10,17 +10,17 @@ else:
     print("Login gagal")
 
 ID_Game = input("Masukkan ID Game: ")
+
 print("Pilih Game: ")
 print("Genshin Impact")
 print("Minecraft")
 print("Mobile Legends")
-
 Nama_Game = input("Masukkan Nama Game: ")
+
 print("Pilih Kategori Top Up: ")
 print("Kecil")
 print("Menengah")
 print("Besar")
-
 Kategori_Top_Up = input("Masukkan Kategori Top Up: ")
 if Kategori_Top_Up == "Kecil":
     Harga_Dasar = 15000
@@ -38,5 +38,5 @@ biaya_admin = 2500 if metode_pembayaran == "Pulsa" else 500
 total_biaya = Harga_Dasar + biaya_admin
 total_biaya = str(total_biaya)
 biaya_admin = str(biaya_admin)
-Struk_Pembelian = "ID Game: " + ID_Game + ", Nama Game: " + Nama_Game + ", Kategori Top Up: " + Kategori_Top_Up + ", Metode Pembayaran: " + metode_pembayaran + ", Biaya Admin: " + biaya_admin + ", Total Biaya: " + total_biaya
+Struk_Pembelian = "ID Game: " + ID_Game + ", Nama Game: " + Nama_Game + ", Kategori Top Up: " + Kategori_Top_Up + ", Metode Pembayaran: " + metode_pembayaran + ", Biaya Admin: Rp" + biaya_admin + ", Total Biaya: Rp" + total_biaya
 print("Struk Pembelian: ", Struk_Pembelian)
