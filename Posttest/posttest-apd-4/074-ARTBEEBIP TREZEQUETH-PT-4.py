@@ -14,6 +14,7 @@ while batas_percobaan > 0:
     input_username = input("Username: ")
     input_pin = input("PIN: ")
     if input_username == Username and input_pin == pin:
+        print("Login berhasil!")
         while True:
             print()
             print("Selamat datang, ", Username)
