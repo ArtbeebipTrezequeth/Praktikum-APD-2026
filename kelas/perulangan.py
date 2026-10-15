@@ -53,17 +53,17 @@
     #if i >= 11:
         #break
 
-Menu = True
-while True:
-    print("MENU")
-    print("1. Makan")
-    print("2. Minum")
-    print("0. Keluar")
-    pilih = int(input("Masukkan Pilihan: "))
-    if pilih == 0:
-        break
-    else:
-        print(f"Anda memilih menu ke {pilih}")
+#Menu = True
+#while True:
+    #print("MENU")
+    #print("1. Makan")
+    #print("2. Minum")
+    #print("0. Keluar")
+    #pilih = int(input("Masukkan Pilihan: "))
+    #if pilih == 0:
+        #break
+    #else:
+        #print(f"Anda memilih menu ke {pilih}")
 
 #continue
 #for i in range(10): # 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. iterasi = baris kode yang akan diulang
@@ -79,3 +79,16 @@ while True:
     #elif i % 2 != 0: # jika i tidak habis dibagi 2
      #   continue # lanjut ke iterasi berikutnya
     #print(i)
+
+#IPK = float(input("IPK: "))
+#Penghasilan_orang_tua = float(input("Penghasilan_orang_tua: "))
+#Organisasi = input("Organisasi: ")
+
+#if IPK >= 3.5 and Penghasilan_orang_tua <=500000 or Organisasi == "Ya" and IPK >= 3.75:
+#    print ("Siswa menerima beasiswa")
+#else:
+#    print ("Siswa tidak menerima beasiswa")
+
+Buah = ["Jeruk", "Apel"]
+Buah.append("Anggur")
+print(Buah)
