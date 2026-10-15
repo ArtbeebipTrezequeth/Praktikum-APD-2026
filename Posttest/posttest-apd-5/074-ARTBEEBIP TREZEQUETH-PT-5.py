@@ -37,7 +37,6 @@ while berjalan_program:
         print("Resep: stick, oak_plank, door, sword, pickaxe, axe, hoe, shovel, bow, furnace, bed")
         resep = input("Ketik nama item yang ingin di-craft: ")
 
-        # Validasi resep manual tanpa except
         resep_valid = False
         if (resep == "stick" or resep == "oak_plank" or resep == "door" or resep == "sword" or resep == "pickaxe" or resep == "axe" or resep == "hoe" or resep == "shovel" or resep == "bow" or resep == "furnace" or resep == "bed"):
           resep_valid = True
@@ -88,7 +87,6 @@ while berjalan_program:
 
         pilih_idx = input("Masukkan nomor slot item yang ingin dikelola: ")
 
-        # Validasi angka slot
         is_num = True
         if len(pilih_idx) == 0:
           is_num = False
