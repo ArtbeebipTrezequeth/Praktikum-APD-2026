@@ -1,0 +1,1 @@
+inventory = {0: "diamond", 1: "oak_wood", 2: "iron_ingot"}
